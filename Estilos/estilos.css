@@ -1,0 +1,92 @@
+body{
+	margin: 0;
+
+}
+
+.busca{
+height: 20px;
+width: 400px;
+margin-top: 30px;
+
+}
+
+.cabecera{
+	padding: 1em 2em;
+	background-color: orange;
+	height: 100px;
+	display: flex;
+	justify-content: center;	
+}
+
+.menu{
+	background-color: #333333;
+
+}
+
+.menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu ul li{
+	display: inline-block;
+}
+
+.menu ul li a{
+	color: white;
+	display: block;
+	text-decoration: none;
+	padding:  30px;
+}
+
+a:hover{
+	background-color: #ff7c1e;
+}
+
+.derecha{
+
+	float: right;
+
+}
+
+.slider{
+	margin: 0;
+	padding: 0;
+}
+
+.slider img{
+	margin: 0;
+	padding: 0;
+     height: 70%;
+     width: 100%;
+    position: absolute;
+}
+
+
+@media screen and (max-width: 480px){
+
+.slider img{
+	margin: 0;
+	padding: 0;
+	height: 25%;
+	width: 100%;
+
+}
+
+
+
+}
+
+@media screen and (max-width: 768px) and (min-width: 481){
+
+
+
+	.slider img{
+		margin: 0;
+		padding: 0;
+		height: 50%;
+		width:100%;
+	}
+}
+
