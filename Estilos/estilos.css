@@ -1,11 +1,12 @@
 body{
 	margin: 0;
-
+	
 }
 
 .busca{
 height: 20px;
 width: 400px;
+justify-content: center; 
 margin-top: 30px;
 
 }
@@ -15,7 +16,26 @@ margin-top: 30px;
 	background-color: orange;
 	height: 100px;
 	display: flex;
-	justify-content: center;	
+	justify-content: space-between;	
+}
+
+.LOGO-CABAÑA{
+	width: 150px;
+	height: 100px;
+	float: left;
+	margin: 0;
+	padding: 0;
+
+
+
+}
+
+.LOGO-TICKET{
+	margin: 0;
+	padding: 0;
+	float: right;
+	width: 150px;
+	height: 100px;
 }
 
 .menu{
@@ -27,6 +47,7 @@ margin-top: 30px;
 	list-style: none;
 	margin: 0;
 	padding: 0;
+	
 }
 
 .menu ul li{
@@ -38,30 +59,44 @@ margin-top: 30px;
 	display: block;
 	text-decoration: none;
 	padding:  30px;
+
 }
 
 a:hover{
-	background-color: #ff7c1e;
+	background-color: orange;
 }
 
-.derecha{
 
-	float: right;
 
-}
-
-.slider{
-	margin: 0;
-	padding: 0;
-}
 
 .slider img{
 	margin: 0;
 	padding: 0;
-     height: 70%;
-     width: 100%;
-    position: absolute;
+    height: 500px;
+    width: 100%;
+
+    
 }
+
+h1{
+	text-align: center;
+}
+
+.titulo-destacado{
+	font-family: serif;
+	background-color: orange;
+	text-align: center;
+	border-radius: 20px;
+	font-size: 1em;
+	padding: 5px;
+	border: 3px solid #7c4200;
+}
+
+div .destacados{
+
+}
+
+
 
 
 @media screen and (max-width: 480px){
@@ -78,14 +113,14 @@ a:hover{
 
 }
 
-@media screen and (max-width: 768px) and (min-width: 481){
+@media screen and (min-width: 481px) and (max-width: 768px){
 
 
 
 	.slider img{
 		margin: 0;
 		padding: 0;
-		height: 50%;
+		height: 40%;
 		width:100%;
 	}
 }
