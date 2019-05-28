@@ -94,11 +94,13 @@ h1{
 
 div .destacados{
     display: grid;
-    grid-template-columns: 300px 300px 300px;
+    grid-template-columns: 420px 420px 420px;
     grid-template-rows: 400px 400px;
     background-color: white;
-    color: black;
-    grid-gap: 10px;
+    color: white;
+    grid-gap: 45px;
+    justify-content: center;
+    margin-top: 50px;
     
 }
 
@@ -107,10 +109,23 @@ div .destacados .caja{
     padding: 20px;
     border-radius: 8px;
     font-size: 200%;
+    border:solid 5px orange;
+    z-index: 1;
+    display: inline-grid;
 }
 
+div .destacados .caja img{
+    
+    z-index: 2;
+    width: 374px;
+    height: 200px;
+    border-radius: 13px;
+    margin: 0;
+    border: solid 2px orange;
+    padding: 
+}
 
-
+<!-- vista para celular-->
 @media screen and (max-width: 480px){
 
 body{
@@ -178,10 +193,13 @@ margin-right: 10px;
 	padding: 5px;
 	border: 3px solid #7c4200;
     font-size: 23px;
-}        
+}
+    
+    
 
 }
 
+<!-- vista para tablets-->
 @media screen and (min-width: 481px) and (max-width: 768px){
 
 
