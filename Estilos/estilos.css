@@ -64,6 +64,7 @@ margin-top: 30px;
 
 a:hover{
 	background-color: orange;
+ 
 }
 
 
@@ -87,7 +88,6 @@ div .pasos {
     grid-template-columns: 200px 200px 200px;
     grid-template-rows: 200px;
    background-color: white;
-     grid-gap: 50px
      justify-content: center;
     margin-top: 20px;
     grid-gap: 50px;
@@ -165,8 +165,25 @@ div .medio{
    grid-gap: 50px;
         
 }
+div .pie{
+	display: grid;
+ background-color: grey;
+	justify-content:space-between;	
+ text-align: center;
+ grid-template-columns:200px 200px 200px;
+ grid-template-rows:200px;
 
 
+}
+div .pie .cajita{
+ background-color: grey;
+ font-size: 15px;
+ text-align: center;
+ justify-content: center;
+ grid-gap:1px;
+ width: 200px;
+ height: 200px
+}
 
 
 <!-- vista para celular-->
