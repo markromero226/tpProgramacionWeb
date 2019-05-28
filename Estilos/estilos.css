@@ -82,6 +82,29 @@ h1{
 	text-align: center;
 }
 
+div .pasos {
+    display:grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px;
+   background-color: white;
+     grid-gap: 50px
+     justify-content: center;
+    margin-top: 20px;
+    grid-gap: 50px;
+
+}
+
+div .pasos .paso{
+    
+    background-color: burlywood;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 50px;
+    text-align: center;
+    border: solid 4px #7c4200;
+    
+  }
+
 .titulo-destacado{
 	font-family: serif;
 	background-color: orange;
@@ -112,7 +135,7 @@ div .destacados .caja{
     font-size: 200%;
     border:solid 5px orange;
     z-index: 1;
-    display: inline-grid;
+    
 }
 
 div .destacados .caja img{
@@ -125,6 +148,26 @@ div .destacados .caja img{
     border: solid 2px orange;
      
 }
+.medios-destacado{
+    font-family: serif;
+	background-color: white;
+	text-align: center;
+	border-radius: 20px;
+	padding: 5px;
+	border: 2px solid blue;
+}
+div .medio{
+    
+    display: grid;
+    grid-template-columns: 230px 230px 230px 230px;
+    grid-template-rows: 245px;
+    background-color: white;
+   grid-gap: 50px;
+        
+}
+
+
+
 
 <!-- vista para celular-->
 @media screen and (max-width: 480px){
@@ -199,6 +242,8 @@ margin-right: 10px;
     
 
 }
+
+
 
 <!-- vista para tablets-->
 @media screen and (min-width: 481px) and (max-width: 768px){
