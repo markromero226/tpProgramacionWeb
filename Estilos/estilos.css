@@ -93,23 +93,92 @@ h1{
 }
 
 div .destacados{
-
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 400px 400px;
+    background-color: white;
+    color: black;
+    grid-gap: 10px;
+    
 }
 
+div .destacados .caja{
+    background-color: #7c4200;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 200%;
+}
 
 
 
 @media screen and (max-width: 480px){
 
+body{
+        font-size: 1em;
+}
+    
+.cabecera{
+	padding: 1em 2em;
+	background-color: orange;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;	
+}    
+    
 .slider img{
 	margin: 0;
 	padding: 0;
-	height: 25%;
+	height: 180px;
 	width: 100%;
 
 }
+    
+.LOGO-CABAÑA{
+	width: 80px;
+	height: 50px;
+	float: left;
+	margin: 0;
+	
 
+}
 
+.busca{
+height: 20px;
+width: 200px;
+justify-content: center; 
+margin-top: 30px;
+margin-left: 10px;
+margin-right: 10px;    
+   
+
+}
+
+.LOGO-TICKET{
+	margin: 0;
+	
+	float: right;
+	width: 80px;
+	height: 50px;
+}
+    
+.menu ul li a{
+	color: white;
+	display: block;
+	text-decoration: none;
+	padding:  10px;
+    font-size: 13px;
+}
+    
+.titulo-destacado{
+	font-family: serif;
+	background-color: orange;
+	text-align: center;
+	border-radius: 20px;
+	font-size: 1em;
+	padding: 5px;
+	border: 3px solid #7c4200;
+    font-size: 23px;
+}        
 
 }
 
