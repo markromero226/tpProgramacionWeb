@@ -1,6 +1,6 @@
 body{
-	margin: 0;
-	
+	margin:0px;
+ background: radial-gradient(white,orange);
 }
 
 .busca{
@@ -13,7 +13,7 @@ margin-top: 30px;
 
 .cabecera{
 	padding: 1em 2em;
-	background-color: orange;
+	background: linear-gradient(orange,white);
 	height: 100px;
 	display: flex;
 	justify-content: space-between;	
@@ -82,12 +82,13 @@ h1{
 
 div .pasos {
     display:grid;
-    grid-template-columns: 200px 200px 200px;
-    grid-template-rows: 200px;
-   background-color: white;
+    grid-template-columns: 150px 150px 150px 150px 150px;
+    grid-template-rows: 150px;
+   
      justify-content: center;
     margin-top: 20px;
     grid-gap: 50px;
+ margin-bottom: 60px
     
 }
 
@@ -96,19 +97,19 @@ div .pasos .paso{
     background-color: burlywood;
     padding: 20px;
     border-radius: 30px;
-    font-size: 28px;
+    font-size: 20px;
     text-align: center;
     border: solid 2px #7c4200;
     
   }
 
 .titulo-destacado{
-	font-family: serif;
-	background-color: orange;
+ font-family: serif;
+	background-color:orange;
 	text-align: center;
 	border-radius: 20px;
 	font-size: 1em;
-	padding: 5px;
+	padding: 11px;
 	border: 3px solid #7c4200;
     
     
@@ -118,7 +119,7 @@ div .destacados{
     display: grid;
     grid-template-columns: 420px 420px 420px;
     grid-template-rows: 450px 450px;
-    background-color: white;
+    
     color: white;
     grid-gap: 45px;
     justify-content: center;
@@ -134,13 +135,16 @@ div .destacados .caja{
     font-size: 200%;
     border:solid 5px orange;
     z-index: 1;
+ margin-left: 50px;
+ margin-right: 50px;
+ height: 350px;
     
 }
 
 div .destacados .caja img{
     
     z-index: 2;
-    width: 369px;
+    width: 260px;
     height: 200px;
     border-radius: 13px;
     margin: 0;
@@ -149,38 +153,32 @@ div .destacados .caja img{
 }
 
 .medios-destacado{
-    font-family: serif;
-	background-color: white;
+ font-family: serif;
+ font-size: 20px;
 	text-align: center;
-	border-radius: 20px;
+	border-radius: 30px;
 	padding: 5px;
-	border: 2px solid blue;
+	
 }
 
-div .medio{
-    
-    display: grid;
-    grid-template-columns: 230px 230px 230px 230px;
-    grid-template-rows: 245px;
-    background-color: white;
-   grid-gap: 50px;
-        
-}
+
 
 div .pie{
  display: grid;
  background-color: grey;
  justify-content:space-around;	
  text-align: center;
- grid-template-columns:250px 250px 250px;
- grid-template-rows:390px;
+ grid-template-columns:200px 200px 200px;
+ grid-template-rows:400px;
+ margin-top: 50px;
  
 }
 
 div .pie .cajita{
  
- font-size: 20px;
- margin-top: 10px;    
+ font-size: 18px;
+ text-align:center;
+ margin-top: 15px;    
  width: 200px;
  height: 200px;
       
@@ -188,8 +186,9 @@ div .pie .cajita{
 
 div .cajita ul li{
  list-style: none;
+ font-size: 15px;
  text-align: left;
- padding: 5px;
+ padding: 1px;
  text-decoration: none;
     
 }
@@ -203,29 +202,63 @@ color: black;
 }
 
 div .cajita .redes img{
-    height: 80px;
-    width: 80px;
+ 
+    height: 50px;
+    width: 50px;
     
 }
 
 div .metodo{
  display: grid;
- 
- background-color: white;
- 
- grid-template-rows:250px;
- 
+
+ grid-template-rows:100px;
+ justify-content: center;
      
 }
 
 div .metodo .pago img{
- justify-content: space-around;    
- padding: 1em;
- width: 200px;
- height: 200px;
- margin-left: 45px;
+
+ padding:10px;
+ width: 50px;
+ height: 50px;
+
     
 }
+
+div .detalle-evento{
+  padding: 2px 16px;
+    display:flex;
+    justify-content: space-between;
+ font-size:25px;
+}
+div .fecha-evento span{
+    display: block;
+    padding: 5px;
+    font-weight: bold;
+ font-size: 50px;
+}
+div .info-evento{
+    display: flex;
+    flex-direction: column;  
+    text-align: right; 
+    font-size: 20px;
+}
+div .info-evento p{
+    font-family: serif;
+    font-size: 25px;
+    font-weight: bold;
+    float: right;
+}
+
+div .info-evento a{
+    text-decoration: none;
+    color: orangered;
+    padding: 11px;
+   
+ 
+ 
+}
+
 
 
 <!-- vista para celular-->
