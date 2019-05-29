@@ -1,0 +1,59 @@
+
+.foto {
+display: grid;
+
+width: 600px;
+height: 500px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+
+section{
+ 	display: flex;
+ 	flex-direction: row;
+  justify-content: space-around;
+  align-items:stretch;
+  
+  margin: 60px;
+ }
+
+article{
+    padding: 15px;
+    background-color: navajowhite;
+    border-radius: 40px;
+    border: 1px solid;
+ 
+ }
+
+.evento{
+ margin-left: 10px;
+ }
+
+ .evento p{
+    margin-top: 15px;
+    font-weight: bold;
+    padding: 15px;
+    color:black;
+ }
+ .evento span{
+    font-weight: normal;
+    text-align:right;
+    padding: 2px;
+    color: saddlebrown;
+}
+.evento .boton{
+    margin-top: 200px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.mapa{
+    
+    width: 600px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.mapa iframe{
+    width: 600px;
+    height: 300px;
+}
