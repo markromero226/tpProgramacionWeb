@@ -59,16 +59,13 @@ margin-top: 30px;
 	display: block;
 	text-decoration: none;
 	padding:  30px;
-
+    font-size: 22px
 }
 
-a:hover{
+.menu a:hover{
 	background-color: orange;
  
 }
-
-
-
 
 .slider img{
 	margin: 0;
@@ -91,7 +88,7 @@ div .pasos {
      justify-content: center;
     margin-top: 20px;
     grid-gap: 50px;
-
+    
 }
 
 div .pasos .paso{
@@ -99,9 +96,9 @@ div .pasos .paso{
     background-color: burlywood;
     padding: 20px;
     border-radius: 30px;
-    font-size: 50px;
+    font-size: 28px;
     text-align: center;
-    border: solid 4px #7c4200;
+    border: solid 2px #7c4200;
     
   }
 
@@ -113,6 +110,8 @@ div .pasos .paso{
 	font-size: 1em;
 	padding: 5px;
 	border: 3px solid #7c4200;
+    
+    
 }
 
 div .destacados{
@@ -148,6 +147,7 @@ div .destacados .caja img{
     border: solid 2px orange;
      
 }
+
 .medios-destacado{
     font-family: serif;
 	background-color: white;
@@ -156,6 +156,7 @@ div .destacados .caja img{
 	padding: 5px;
 	border: 2px solid blue;
 }
+
 div .medio{
     
     display: grid;
@@ -165,24 +166,65 @@ div .medio{
    grid-gap: 50px;
         
 }
+
 div .pie{
-	display: grid;
+ display: grid;
  background-color: grey;
-	justify-content:space-between;	
+ justify-content:space-around;	
  text-align: center;
- grid-template-columns:200px 200px 200px;
- grid-template-rows:200px;
-
-
+ grid-template-columns:250px 250px 250px;
+ grid-template-rows:390px;
+ 
 }
+
 div .pie .cajita{
- background-color: grey;
- font-size: 15px;
- text-align: center;
- justify-content: center;
- grid-gap:1px;
+ 
+ font-size: 20px;
+ margin-top: 10px;    
  width: 200px;
- height: 200px
+ height: 200px;
+      
+}
+
+div .cajita ul li{
+ list-style: none;
+ text-align: left;
+ padding: 5px;
+ text-decoration: none;
+    
+}
+
+div .cajita ul .link a{
+    text-decoration: none;
+}
+
+div .cajita ul .link a:visited{
+color: black;
+}
+
+div .cajita .redes img{
+    height: 80px;
+    width: 80px;
+    
+}
+
+div .metodo{
+ display: grid;
+ 
+ background-color: white;
+ 
+ grid-template-rows:250px;
+ 
+     
+}
+
+div .metodo .pago img{
+ justify-content: space-around;    
+ padding: 1em;
+ width: 200px;
+ height: 200px;
+ margin-left: 45px;
+    
 }
 
 
