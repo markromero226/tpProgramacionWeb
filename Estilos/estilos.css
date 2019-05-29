@@ -251,14 +251,17 @@ div .info-evento p{
 }
 
 div .info-evento a{
-    text-decoration: none;
-    color: orangered;
-    padding: 11px;
-   
- 
+        color: white;
+    font-size:15px;   
  
 }
-
+div .info-evento button{
+ margin-top:5px;
+ color:saddlebrown;
+ border-radius: 15px;
+ border-color: saddlebrown;
+ 
+}
 
 
 <!-- vista para celular-->
