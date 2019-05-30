@@ -1,18 +1,64 @@
-section{
-display:grid;
-grid-template-columns: 400px 400px;
- grid-template-rows:200px;
- justify-content: center;
-  
+body{
+    margin: 0;
+    padding: 0;
 }
 
+
+
 .cajon{
- border: 5px solid orange;
- 
+    
+    margin: 10px;
+    
+    
+    
 }
+
 .vista-previa{
-	background-color:#ffc0cb;
-	height:190px;
-	position: relative;
+    display: flex;
+	background-color:#7c4200;
+	height:170px;
+    color: white;
 	margin-bottom: 15px;
+    text-align: center;
+    align-items: flex-end;
+    justify-content: center;
+    border-radius: 13px;
+    border:5px solid orange;
 }
+
+.Vistita{
+    text-align: center
+}
+
+.Opciones span{
+    font-size: 20px;
+    background-color: orange;
+    margin: 5px;
+    text-align: left;
+    border-radius: 13px;
+    padding: 2px;
+}
+
+.caja-opciones .tamaño-de-fuente{
+font-size: 150%
+}
+
+.Opciones{
+    
+   display:grid;
+   grid-template-columns: 300px 300px;
+   grid-template-rows:700px;
+   justify-content: center; 
+}
+
+.Opciones .caja-opciones{
+    display: flex;
+    background-color: #7c4200;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    border:5px orange solid;
+    border-radius: 13px;
+}
+
