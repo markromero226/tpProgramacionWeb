@@ -3,6 +3,14 @@ body{
  background: radial-gradient(white,orange);
 }
 
+.contenedor{
+    
+    max-width: 100%;
+    margin: auto;
+    height: auto;
+    
+}
+
 .busca{
 height: 40px;
 width: 400px;
@@ -68,11 +76,14 @@ margin-top: 30px;
 }
 
 .slider img{
-	margin: 0;
+    display: flex;
+	margin-top: 15px;
+    
+    
 	padding: 0;
     height: 500px;
     width: 100%;
-
+    
     
 }
 

@@ -26,19 +26,22 @@ margin: 0;
     height: 30px;
 }
 
-.formulario .datos textarea{
-    width: 300px;
-    height: 100px;
-    display: flex;
+textarea{
+    min-height: 120px;
+    max-height: 300px;
+    min-width: 298px;
+    max-width: 100%;
     margin-left: 5px;
+    resize: none;
+    
 }
 
 .formulario .datos .enviar{
     
-    float: right;
+    
     margin-right: 79px;
     padding: 5px;
-
+    
     
 }
 
