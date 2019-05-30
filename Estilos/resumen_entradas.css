@@ -1,0 +1,69 @@
+table, tr, th{
+ border: 2px solid #7c4200;
+ 
+}
+table{
+ background-color: orange;
+ margin:auto;
+
+}
+tr,th{
+ background-color: navajowhite;
+ padding:30px;
+}
+.titulos{
+ font-size:25px;
+}
+
+.boton {
+  background-color:#7c4200;
+  border: 5px solid orange;
+  color: white; 
+  padding: 15px; 
+  font-size: 15px;
+  margin: 5px;
+ 
+}
+.boton-modificar{
+  background-color:saddlebrown;
+  border: 5px solid orange;
+  color: white; 
+  padding: 15px; 
+  font-size: 15px;
+  margin: 5px;
+}
+a {
+ color:white;
+ text-decoration: none;
+}
+.botones{
+ margin-top: 50px;
+ margin-right: 110px;
+ display:flex;
+ justify-content: flex-end;
+
+ 
+}
+
+.seguir-comprando{
+ border: 3px solid #7c4200;
+ border-radius: 30px;
+ background-color: orange;
+ margin-right: 16px;
+ padding:20px;
+ 
+}
+
+.finalizar-compra{
+ border: 3px solid #7c4200;
+ border-radius: 30px;
+ background-color: orange;
+ padding: 20px;
+ 
+
+}
+.aa {
+ color: #7c4200;
+ font-size:17px;
+ text-decoration: none;
+}
