@@ -169,7 +169,7 @@ div .pie{
  justify-content:space-around;	
  text-align: center;
  grid-template-columns:200px 200px 200px;
- grid-template-rows:400px;
+ grid-template-rows:250px;
  margin-top: 50px;
  
 }

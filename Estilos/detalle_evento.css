@@ -6,6 +6,8 @@ width: 600px;
 height: 500px;
  margin-top: 20px;
  margin-bottom: 20px;
+ border: 1px solid orange;
+ border-radius: 10px;
 }
 
 section{
@@ -19,27 +21,31 @@ section{
 
 article{
     padding: 15px;
-    background-color: navajowhite;
+    background-color: #7c4200;
     border-radius: 40px;
-    border: 1px solid;
+    border: 5px solid orange;
  
  }
 
 .evento{
  margin-left: 10px;
  }
-
+.evento h1{
+ color: white;
+}
  .evento p{
     margin-top: 15px;
-    font-weight: bold;
+    font-weight: normal;
+  font-size:20px;
     padding: 15px;
-    color:black;
+    color:white;
  }
  .evento span{
     font-weight: normal;
     text-align:right;
     padding: 2px;
-    color: saddlebrown;
+    color: white;
+  font-size:17px;
 }
 .evento .boton{
     margin-top: 200px;
@@ -50,10 +56,98 @@ article{
     
     width: 600px;
     height: 300px;
-    margin-bottom: 20px;
+ margin-top: 70px;
+    margin-bottom: 75px;
+    margin-left: 350px;
+ 
 }
 
 .mapa iframe{
     width: 600px;
-    height: 300px;
+    height: 280px;
+    margin-top: 9px;
+ 
 }
+
+.destacados{
+        display: grid;
+    grid-template-columns: 420px 420px 420px;
+    grid-template-rows: 450px;
+    
+    color: white;
+    justify-content: center;
+    margin-top: 50px;
+
+  
+    
+}
+
+.caja{
+ background-color: #7c4200;
+    padding: 20px;
+    border-radius: 13px;
+    font-size: 200%;
+    border:solid 5px orange;
+    z-index: 1;
+ margin-left: 50px;
+ margin-right: 50px;
+ height: 350px;
+}
+.caja img{
+  z-index: 2;
+    width: 260px;
+    height: 200px;
+    border-radius: 13px;
+    margin: 0;
+    border: solid 2px orange;
+     
+}
+.pie{
+ display: grid;
+ background-color: grey;
+ justify-content:space-around;	
+ text-align: center;
+ grid-template-columns:200px 200px 200px;
+ grid-template-rows:250px;
+ margin-top: 50px;
+ 
+}
+.cajita {
+ font-size: 18px;
+ text-align:center;
+ margin-top: 15px;    
+ width: 200px;
+ height: 200px;
+      
+
+}
+.cajita ul li{
+ list-style: none;
+ font-size: 15px;
+ text-align: left;
+ padding: 1px;
+ text-decoration: none;
+    
+}
+.link a{
+    text-decoration: none;
+}
+.link a:visited{
+color: black;
+}
+.redes img{
+    height: 50px;
+    width: 50px;
+    
+}
+.titulo-detacado{
+ font-family: serif;
+	background-color:orange;
+	text-align: center;
+	border-radius: 20px;
+	font-size: 1em;
+	padding: 11px;
+	border: 3px solid #7c4200;
+  
+}
+
