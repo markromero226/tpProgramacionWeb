@@ -72,10 +72,9 @@ article{
 }
 
 .destacados{
-        display: grid;
+    display: grid;
     grid-template-columns: 420px 420px 420px;
     grid-template-rows: 450px;
-    
     color: white;
     justify-content: center;
     margin-top: 50px;
