@@ -5,7 +5,7 @@ margin: 0;
 .formulario{
     display: grid;
     grid-template-columns: 500px 500px;
-    grid-template-rows: 300px;
+    grid-template-rows: 330px;
     grid-gap: 10px;
     justify-content: center;
     margin: 50px 20px;
@@ -39,10 +39,16 @@ textarea{
 .formulario .datos .enviar{
     
     
-    margin-right: 79px;
+    margin-right: 19px;
     padding: 5px;
     
     
+}
+button{
+display:flex;
+align-content: flex-end;
+ margin-left: 5px;
+ 
 }
 
 .datos h1{

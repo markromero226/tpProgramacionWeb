@@ -15,17 +15,16 @@ body{
 
 .vista-previa{
     display: flex;
-	background-color:#7c4200;
+	background-color:white;
 	height:170px;
-    color: white;
+    color: black;
 	margin-bottom: 15px;
     text-align: center;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
     border-radius: 13px;
     border:5px solid orange;
 }
-
 .Vistita{
     text-align: center
 }
@@ -37,28 +36,90 @@ body{
     text-align: left;
     border-radius: 13px;
     padding: 2px;
+
 }
 
 .caja-opciones .tamaño-de-fuente{
-font-size: 150%
+font-size: 150%;
+ float:left;
 }
 
 .Opciones{
     
    display:grid;
-   grid-template-columns: 300px 300px;
-   grid-template-rows:700px;
+   grid-template-columns: 300px 400px;
+   grid-template-rows:600px;
    justify-content: center; 
 }
 
 .Opciones .caja-opciones{
     display: flex;
-    background-color: #7c4200;
-    justify-content: center;
+    background-color: grey;
+    justify-content:flex-start;
     flex-direction: column;
     margin: 10px;
     padding: 10px;
     border:5px orange solid;
     border-radius: 13px;
 }
+#rosa {
+ width: 25px;
+ height: 15px;
+ float:left;
+}
+#azul{
+ width: 25px;
+ height: 20px;
+ float:left;
+ 
+}
 
+#naranja{
+ width:14px;
+ height: 14px;
+ float:left;
+ border-radius:50px;
+ margin-left: 6px;
+ margin-right: 5px;
+}
+
+#rojo{
+  width: 13px;
+ height: 13px;
+ float:left;
+ margin-left: 7px;
+ margin-right: 5px;
+
+}
+#marron{
+  width: 13px;
+ height: 13px;
+ float:left;
+ margin-left: 7px;
+ margin-right: 5px;
+}
+#cuarosa{
+  width: 13px;
+ height: 13px;
+ float:left;
+}
+#cuarojo{
+  width: 13px;
+ height: 13px;
+ float:left;
+}
+#blanco{
+  width: 13px;
+ height: 13px;
+ float:left;
+}
+#cuazul{
+  width: 13px;
+ height: 13px;
+ float:left;
+}
+#amarillo{
+  width: 13px;
+ height: 13px;
+ float:left;
+}
