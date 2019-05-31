@@ -44,6 +44,10 @@ font-size: 150%;
  float:left;
 }
 
+.Opciones .fecha-hora input{
+    margin-top: 5px
+}
+
 .Opciones{
     
    display:grid;
